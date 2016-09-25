@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Uol-bU-X6j">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Puzzles-->
+        <scene sceneID="Sc6-8O-sPo">
+            <objects>
+                <collectionViewController id="0vr-WX-2Cg" customClass="CollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="mrd-Ud-3OD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Lyd-Um-9fz">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="PuzzleCell" id="Ll6-Dm-lxZ" customClass="PuzzleCell">
+                                <rect key="frame" x="0.0" y="79" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wy5-Ut-3G0">
+                                            <rect key="frame" x="21" y="14" width="8" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="0.18820326849999999" green="1" blue="0.048200677060000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="wy5-Ut-3G0" secondAttribute="centerX" id="JeM-SU-3It"/>
+                                    <constraint firstAttribute="centerY" secondItem="wy5-Ut-3G0" secondAttribute="centerY" constant="0.5" id="hvT-6s-mMi"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="mainLabel" destination="wy5-Ut-3G0" id="Wdh-jz-BST"/>
+                                </connections>
+                            </collectionViewCell>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="VoidCell" id="TDe-2t-U6e">
+                                <rect key="frame" x="61" y="79" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="0vr-WX-2Cg" id="gp2-sn-Oyu"/>
+                            <outlet property="delegate" destination="0vr-WX-2Cg" id="LEb-ft-P07"/>
+                            <outletCollection property="gestureRecognizers" destination="CN8-Pq-hFi" appends="YES" id="u2O-Ps-bKL"/>
+                            <outletCollection property="gestureRecognizers" destination="18u-hO-g3v" appends="YES" id="fFd-ro-g9f"/>
+                            <outletCollection property="gestureRecognizers" destination="f0r-wt-MrI" appends="YES" id="vag-Lp-lhb"/>
+                            <outletCollection property="gestureRecognizers" destination="a4O-VX-5uG" appends="YES" id="cVP-fl-q00"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Puzzles" id="fhC-bz-GKY">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="ADk-Fn-wX5">
+                            <connections>
+                                <action selector="startAgain:" destination="0vr-WX-2Cg" id="kfA-p7-ZCw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GlD-sf-YoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="CN8-Pq-hFi" userLabel="Up Swipe">
+                    <connections>
+                        <action selector="handleUpSwipe:" destination="0vr-WX-2Cg" id="drg-Lw-nwB"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="18u-hO-g3v" userLabel="Down Swipe">
+                    <connections>
+                        <action selector="handleDownSwipe:" destination="0vr-WX-2Cg" id="Fc5-te-Quh"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="f0r-wt-MrI" userLabel="Left Swipe">
+                    <connections>
+                        <action selector="handleLeftSwipe:" destination="0vr-WX-2Cg" id="dGK-Ll-4y0"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="a4O-VX-5uG" userLabel="Right Swipe">
+                    <connections>
+                        <action selector="handleRightSwipe:" destination="0vr-WX-2Cg" id="fBe-uv-1pi"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="863" y="374"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XZI-Eg-69Q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uol-bU-X6j" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xxy-Az-6B1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0vr-WX-2Cg" kind="relationship" relationship="rootViewController" id="6LC-az-BSM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yUi-x5-gy8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="374"/>
+        </scene>
+    </scenes>
+</document>

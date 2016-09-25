@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B57213FC1B1059E4001D9475 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57213FB1B1059E4001D9475 /* CollectionViewController.m */; };
+		B57213FF1B105A99001D9475 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = B57213FE1B105A99001D9475 /* NSMutableArray+Shuffle.m */; };
+		B57BD7A91A08D3D4005EBE9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BD7A81A08D3D4005EBE9E /* main.m */; };
+		B57BD7AC1A08D3D4005EBE9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BD7AB1A08D3D4005EBE9E /* AppDelegate.m */; };
+		B57BD7B21A08D3D4005EBE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57BD7B01A08D3D4005EBE9E /* Main.storyboard */; };
+		B57BD7B41A08D3D4005EBE9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57BD7B31A08D3D4005EBE9E /* Images.xcassets */; };
+		B57BD7B71A08D3D4005EBE9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57BD7B51A08D3D4005EBE9E /* LaunchScreen.xib */; };
+		B57BD7D71A08F89C005EBE9E /* PuzzleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BD7D61A08F89C005EBE9E /* PuzzleCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B57213FA1B1059E4001D9475 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		B57213FB1B1059E4001D9475 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		B57213FD1B105A99001D9475 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		B57213FE1B105A99001D9475 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		B57214031B109E7F001D9475 /* Puzzles.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Puzzles.gif; sourceTree = "<group>"; };
+		B57BD7A31A08D3D4005EBE9E /* Puzzles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57BD7A71A08D3D4005EBE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57BD7A81A08D3D4005EBE9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B57BD7AA1A08D3D4005EBE9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B57BD7AB1A08D3D4005EBE9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B57BD7B11A08D3D4005EBE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B57BD7B31A08D3D4005EBE9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B57BD7B61A08D3D4005EBE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B57BD7D51A08F89C005EBE9E /* PuzzleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleCell.h; sourceTree = "<group>"; };
+		B57BD7D61A08F89C005EBE9E /* PuzzleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleCell.m; sourceTree = "<group>"; };
+		B5986A6A1CA2FF1500AE6CBD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57BD7A01A08D3D4005EBE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B57BD79A1A08D3D4005EBE9E = {
+			isa = PBXGroup;
+			children = (
+				B57BD7A51A08D3D4005EBE9E /* Puzzles */,
+				B57BD7A41A08D3D4005EBE9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B57BD7A41A08D3D4005EBE9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57BD7A31A08D3D4005EBE9E /* Puzzles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57BD7A51A08D3D4005EBE9E /* Puzzles */ = {
+			isa = PBXGroup;
+			children = (
+				B5986A6A1CA2FF1500AE6CBD /* README.md */,
+				B57214031B109E7F001D9475 /* Puzzles.gif */,
+				B57BD7AA1A08D3D4005EBE9E /* AppDelegate.h */,
+				B57BD7AB1A08D3D4005EBE9E /* AppDelegate.m */,
+				B57BD7D51A08F89C005EBE9E /* PuzzleCell.h */,
+				B57BD7D61A08F89C005EBE9E /* PuzzleCell.m */,
+				B57213FD1B105A99001D9475 /* NSMutableArray+Shuffle.h */,
+				B57213FE1B105A99001D9475 /* NSMutableArray+Shuffle.m */,
+				B57213FA1B1059E4001D9475 /* CollectionViewController.h */,
+				B57213FB1B1059E4001D9475 /* CollectionViewController.m */,
+				B57BD7B01A08D3D4005EBE9E /* Main.storyboard */,
+				B57BD7B31A08D3D4005EBE9E /* Images.xcassets */,
+				B57BD7B51A08D3D4005EBE9E /* LaunchScreen.xib */,
+				B57BD7A61A08D3D4005EBE9E /* Supporting Files */,
+			);
+			path = Puzzles;
+			sourceTree = "<group>";
+		};
+		B57BD7A61A08D3D4005EBE9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B57BD7A71A08D3D4005EBE9E /* Info.plist */,
+				B57BD7A81A08D3D4005EBE9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57BD7A21A08D3D4005EBE9E /* Puzzles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57BD7C61A08D3D4005EBE9E /* Build configuration list for PBXNativeTarget "Puzzles" */;
+			buildPhases = (
+				B57BD79F1A08D3D4005EBE9E /* Sources */,
+				B57BD7A01A08D3D4005EBE9E /* Frameworks */,
+				B57BD7A11A08D3D4005EBE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzles;
+			productName = Puzzles;
+			productReference = B57BD7A31A08D3D4005EBE9E /* Puzzles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57BD79B1A08D3D4005EBE9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = NSSimpleApps;
+				TargetAttributes = {
+					B57BD7A21A08D3D4005EBE9E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = B57BD79E1A08D3D4005EBE9E /* Build configuration list for PBXProject "Puzzles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B57BD79A1A08D3D4005EBE9E;
+			productRefGroup = B57BD7A41A08D3D4005EBE9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B57BD7A21A08D3D4005EBE9E /* Puzzles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57BD7A11A08D3D4005EBE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57BD7B21A08D3D4005EBE9E /* Main.storyboard in Resources */,
+				B57BD7B71A08D3D4005EBE9E /* LaunchScreen.xib in Resources */,
+				B57BD7B41A08D3D4005EBE9E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57BD79F1A08D3D4005EBE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57BD7D71A08F89C005EBE9E /* PuzzleCell.m in Sources */,
+				B57BD7AC1A08D3D4005EBE9E /* AppDelegate.m in Sources */,
+				B57213FC1B1059E4001D9475 /* CollectionViewController.m in Sources */,
+				B57BD7A91A08D3D4005EBE9E /* main.m in Sources */,
+				B57213FF1B105A99001D9475 /* NSMutableArray+Shuffle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B57BD7B01A08D3D4005EBE9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57BD7B11A08D3D4005EBE9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B57BD7B51A08D3D4005EBE9E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57BD7B61A08D3D4005EBE9E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57BD7C41A08D3D4005EBE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B57BD7C51A08D3D4005EBE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57BD7C71A08D3D4005EBE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Puzzles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSSimpleApps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B57BD7C81A08D3D4005EBE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Puzzles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSSimpleApps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57BD79E1A08D3D4005EBE9E /* Build configuration list for PBXProject "Puzzles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57BD7C41A08D3D4005EBE9E /* Debug */,
+				B57BD7C51A08D3D4005EBE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57BD7C61A08D3D4005EBE9E /* Build configuration list for PBXNativeTarget "Puzzles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57BD7C71A08D3D4005EBE9E /* Debug */,
+				B57BD7C81A08D3D4005EBE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B57BD79B1A08D3D4005EBE9E /* Project object */;
+}
