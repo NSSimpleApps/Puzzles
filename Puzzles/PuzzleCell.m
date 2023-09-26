@@ -17,12 +17,10 @@
 @implementation PuzzleCell
 
 - (void)setLabel:(NSNumber *)label {
-    
     self.mainLabel.text = [label stringValue];
 }
 
 - (NSInteger)label {
-    
     return [self.mainLabel.text integerValue];
 }
 

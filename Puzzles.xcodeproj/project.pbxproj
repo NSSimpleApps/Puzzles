@@ -13,8 +13,8 @@
 		B57BD7AC1A08D3D4005EBE9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BD7AB1A08D3D4005EBE9E /* AppDelegate.m */; };
 		B57BD7B21A08D3D4005EBE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57BD7B01A08D3D4005EBE9E /* Main.storyboard */; };
 		B57BD7B41A08D3D4005EBE9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57BD7B31A08D3D4005EBE9E /* Images.xcassets */; };
-		B57BD7B71A08D3D4005EBE9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57BD7B51A08D3D4005EBE9E /* LaunchScreen.xib */; };
 		B57BD7D71A08F89C005EBE9E /* PuzzleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BD7D61A08F89C005EBE9E /* PuzzleCell.m */; };
+		CEAF0F332AC3483D00292FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAF0F322AC3483D00292FAB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		B57BD7AB1A08D3D4005EBE9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B57BD7B11A08D3D4005EBE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B57BD7B31A08D3D4005EBE9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B57BD7B61A08D3D4005EBE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B57BD7D51A08F89C005EBE9E /* PuzzleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleCell.h; sourceTree = "<group>"; };
 		B57BD7D61A08F89C005EBE9E /* PuzzleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleCell.m; sourceTree = "<group>"; };
 		B5986A6A1CA2FF1500AE6CBD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		CEAF0F322AC3483D00292FAB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 				B57213FB1B1059E4001D9475 /* CollectionViewController.m */,
 				B57BD7B01A08D3D4005EBE9E /* Main.storyboard */,
 				B57BD7B31A08D3D4005EBE9E /* Images.xcassets */,
-				B57BD7B51A08D3D4005EBE9E /* LaunchScreen.xib */,
 				B57BD7A61A08D3D4005EBE9E /* Supporting Files */,
+				CEAF0F322AC3483D00292FAB /* LaunchScreen.storyboard */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B57BD7B21A08D3D4005EBE9E /* Main.storyboard in Resources */,
-				B57BD7B71A08D3D4005EBE9E /* LaunchScreen.xib in Resources */,
+				CEAF0F332AC3483D00292FAB /* LaunchScreen.storyboard in Resources */,
 				B57BD7B41A08D3D4005EBE9E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,14 +181,6 @@
 				B57BD7B11A08D3D4005EBE9E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B57BD7B51A08D3D4005EBE9E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B57BD7B61A08D3D4005EBE9E /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

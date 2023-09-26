@@ -11,7 +11,6 @@
 @interface PuzzleCell : UICollectionViewCell
 
 - (void)setLabel:(NSNumber *)label;
-
 - (NSInteger)label;
 
 @end

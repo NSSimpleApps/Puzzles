@@ -11,11 +11,8 @@
 @implementation NSMutableArray (Shuffle)
 
 - (void)shuffle {
-    
     for (NSUInteger i = 0; i < self.count; ++i) {
-        
         NSInteger remainingCount = self.count - i;
-        
         NSInteger exchangeIndex = i + arc4random_uniform((u_int32_t)remainingCount);
         
         [self exchangeObjectAtIndex:i withObjectAtIndex:exchangeIndex];
